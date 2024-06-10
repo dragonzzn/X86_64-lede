@@ -155,9 +155,10 @@ jobs:
           tag_name: ${{env.OWRT_TARGET}}_${{env.OWRT_SOURCE}}_${{env.OWRT_DATE}}
           files: ./owrt/upload/*.*
           body: |
-            这是个平台固件包，内含多个设备！
+            Fork了github上其他大神之作
+            这是个OpenWrt平台固件包，基于Lede（可以修改）内含多个设备！
             请注意选择你需要的设备固件！
-            不要问，更就完事了！
+            自动编译而成，怎么用在你！
 
             源码：${{env.OWRT_SOURCE}}
             平台：${{env.OWRT_TARGET}}
